@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans Adlam', sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    height: 100vh;
+}
+
+#TIMER {
+    font-size: 100px;
+}
+
+#Buttons{
+    
+    width: 400px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttonIcon{
+    width: 40px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    padding: 20px;
+}
+
+.buttons{
+    border-radius: 50%;
+    border: 20px;
+
+    height: 80px;
+    width:  80px;
+}
